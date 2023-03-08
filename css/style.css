@@ -95,7 +95,7 @@ a:hover {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: .7;
+  opacity: 1.7;
 }
 
 .paralax-mf {
@@ -142,12 +142,23 @@ a:hover {
   margin-bottom: 4rem;
 }
 
+.title-box-c {
+  margin-bottom: 2rem;
+}
+
 .title-a {
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
+  margin-top: 2rem;
 }
 
+.title-a-c {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: -7rem;
+}
 .subtitle-a {
   color: #4e4e4e;
 }
@@ -189,10 +200,20 @@ a:hover {
   padding: 3rem 1.25rem;
   position: relative;
   background-color: #fff;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
+
+.box-shadow-full-c {
+  padding: 1rem 1.25rem;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 5rem;
+  z-index: 2;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
 
 /*------/ Socials /------*/
 
@@ -321,7 +342,7 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #0078ff;
+  background: black;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -397,9 +418,9 @@ a:hover {
 
 .navbar-b {
   transition: all .5s ease-in-out;
-  background-color: transparent;
-  padding-top: 1.563rem;
-  padding-bottom: 1.563rem;
+  background-color: #0078ff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .navbar-b.navbar-reduce {
@@ -669,7 +690,7 @@ a:hover {
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
-  margin-bottom: 10rem;
+  margin-bottom: 13rem;
 }
 
 .about-mf .about-img {
@@ -1055,11 +1076,11 @@ a:hover {
 ======================================*/
 
 .footer-paralax {
-  padding: 4rem 0 0 0;
+  padding: 1rem 0 0 0;
 }
 
 .contact-mf {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 /*======================================
