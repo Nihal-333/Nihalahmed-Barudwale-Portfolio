@@ -1018,3 +1018,65 @@ footer .credits a {
   }
 }
 
+/* General Styles */
+.experience-mf {
+  padding: 60px 0;
+}
+
+.experience-box {
+  background-color: #fff; /* Background color of the experience box */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.experience-ico .ico-circle {
+  margin-bottom: 1rem;
+  color: #1e1e1e;
+  transition: all 500ms ease;
+  font-size: 4rem;
+}
+
+.experience-content {
+  margin-top: 10px;
+}
+
+.s-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.s-description {
+  font-size: 16px;
+}
+
+.s-description ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.s-description li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .experience-box {
+    padding: 15px;
+  }
+
+  .experience-ico .ico-circle {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .s-title {
+    font-size: 20px;
+  }
+
+  .s-description {
+    font-size: 14px;
+  }
+}
+
